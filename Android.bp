@@ -254,6 +254,5 @@ prebuilt_etc {
 
 sh_binary {
     name: "start-ssh",
-    vendor: true,
     src: "start-ssh",
 }
