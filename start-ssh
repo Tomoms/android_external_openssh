@@ -41,5 +41,5 @@ if [ "1" == "$DEBUG" ] ; then
     /system/bin/logwrapper /system/bin/sshd -f /vendor/etc/ssh/sshd_config -D -d
 else
     # don't daemonize - otherwise we can't stop the sshd service
-    /system/bin/sshd -f /vendor/etc/ssh/sshd_config -D
+    /system/bin/sshd -f /system/etc/ssh/sshd_config -D
 fi
